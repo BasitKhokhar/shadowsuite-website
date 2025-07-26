@@ -26,7 +26,7 @@ export const services = [
   },
   {
     title: "Payload Obfuscation",
-    icon: "EyeOff", // Changed to string
+    icon: "EyeOff", // Changed to 
     description: "Advanced obfuscation techniques to ensure your payloads remain fully undetectable.",
   },
   {
