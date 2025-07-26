@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%; /* Black */
+    --foreground: 210 40% 98%; /* White/Light Gray for text */
+    --card: 0 0% 5%; /* Very dark gray for cards */
+    --card-foreground: 210 40% 98%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 0 0% 10%; /* Dark gray for primary buttons */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 0 0% 15%; /* Slightly lighter dark gray for secondary */
+    --secondary-foreground: 210 40% 98%;
+    --muted: 0 0% 10%; /* Dark Gray */
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 0 0% 20%; /* Even lighter dark gray for accent */
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 0 0% 20%; /* Darker gray for borders */
+    --input: 0 0% 20%;
+    --ring: 340 100% 50%; /* Neon Red for focus ring */
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1); /* Subtle text shadow for digital feel */
+  /* Subtle background pattern for cyberpunk feel */
+  background-image: radial-gradient(rgba(0, 255, 153, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(255, 0, 85, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+/* Custom class for neon text glow */
+.text-neon-glow-red {
+  text-shadow: 0 0 8px #ff0055, 0 0 15px #ff0055, 0 0 25px #ff0055; /* More pronounced glow */
+}
+
+.text-neon-glow-green {
+  text-shadow: 0 0 8px #00ff99, 0 0 15px #00ff99, 0 0 25px #00ff99; /* More pronounced glow */
+}
+
+/* Scanline overlay for hero sections */
+.scanline-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.2) 50%);
+  background-size: 100% 4px;
+  animation: scanline 8s linear infinite;
+  pointer-events: none; /* Allow clicks to pass through */
+}
+
+/* Responsive typography enhancements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-wrap: balance; /* Balances text for better readability on multiple lines */
+}
