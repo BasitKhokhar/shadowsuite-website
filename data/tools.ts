@@ -1,6 +1,6 @@
 export const tools = [
   {
-    id: "craxrat",
+    id: "craxrat v7.7",
     name: "CraxRat",
     tagline: "Real-Time Android RAT with Live Screen Streaming",
     badge: "🔥 Most Powerful",
