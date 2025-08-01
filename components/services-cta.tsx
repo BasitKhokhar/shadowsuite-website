@@ -38,7 +38,7 @@ export default function ServicesCTA() {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <Link href="https://wa.me/917266825793" target="_blank" rel="noopener noreferrer">
+          <Link href="https://wa.me/919219967205" target="_blank" rel="noopener noreferrer">
             <Button className="bg-neon-red text-white font-bold py-3 px-10 rounded-md text-xl uppercase tracking-wider transition-all duration-300 hover:shadow-neon-red hover:scale-105 border-2 border-neon-red">
               Discuss Requirements on WhatsApp
             </Button>

@@ -28,7 +28,7 @@ export default function HomeHero() {
               Explore Tool Catalog
             </Button>
           </Link>
-          <Link href="https://wa.me/917266825793" target="_blank" rel="noopener noreferrer">
+          <Link href="https://wa.me/919219967205" target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               className="w-full sm:w-auto border-2 border-neon-green text-neon-green font-bold py-3 px-8 rounded-md text-lg uppercase tracking-wider transition-all duration-300 hover:bg-neon-green/10 hover:shadow-neon-green hover:scale-105 bg-transparent"
